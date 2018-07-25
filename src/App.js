@@ -69,11 +69,11 @@ class App extends Component {
       <div className='tc'>
         <header className="App-header">
           <img src={logo} alt="logo" className='f7 measure-narrow' />
-          <h1 className='bg-navy br3 pa3 ma2 bw2 shadow-5'>Welcome to the Starwars fetcher page</h1>
+          <h1 className='bg-navy br3 pa3 ma2 bw2 shadow-5'>Welcome to the Starwars data fetcher page</h1>
         </header>  
         <div className='mt6'>
         <p>Select an option from the drop down menu and click the button to get a random response</p>
-        <p>Or Select an option from the drop down menu enter a number in the Search box and click the button to get the response you want</p>
+        <p>or Select an option from the drop down menu, enter a number in the search box and click the button to get the response you want</p>
         </div>
         <Select selectChange={this.onSelectChange} />  
         <SearchBox searchChange={this.onSearchChange}/>
